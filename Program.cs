@@ -26,9 +26,7 @@ class Program
             insertCmd.CommandText =
             @"  
                 INSERT INTO Users(Name,Age)
-                VALUES ('Ana', 25),
-                        ('Rui', 40);
-            ";
+                VALUES ('Ana', 25), ('Rui', 40);";
 
             insertCmd.ExecuteNonQuery();            
                 
